@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sicky
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: root
+  jpa:
+    show-sql: true

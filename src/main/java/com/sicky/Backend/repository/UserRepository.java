@@ -11,5 +11,5 @@ import com.sicky.Backend.entity.User;
 public interface UserRepository extends JpaRepository<User,UUID> {
 
     boolean existexistsByPhoneNumber(String phoneNumber);
-
+    User findByPhoneNumber(String phoneNumber);
 }

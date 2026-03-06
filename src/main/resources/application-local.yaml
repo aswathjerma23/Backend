@@ -1,6 +1,10 @@
 spring:
   application:
     name: Backend
+  data:
+    redis:
+      host: localhost
+      port: 6379
   datasource:
     url: jdbc:postgresql://localhost:5432/sicky
     driver-class-name: org.postgresql.Driver
